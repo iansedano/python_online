@@ -1,0 +1,34 @@
+1 - What is a value?
+
+2 - What is a type?
+
+3 - What are some values we have seen so far?
+
+4 - What is an example of a int? A floating-point number? A string?
+
+5 - What is a variable?
+
+6 - How do you assign the variable x to the value of 10?
+
+7 - What is an example of an illegal variable name?
+
+8 - What are keywords and what are they used for?
+
+9 - What are operands and what are they used for?
+
+10 - Use the interpretor to demonstrate the use of some of the operands. Give the input and output of addition, multiplication and exponentiation.
+
+11 - What is floor division? How does Python 3 handle floor division?
+
+12 - What is the difference between an expression and a statement?
+
+13 - What is the order of operations?
+
+14 - What does the + operand do when performed on strings? What does the * operand do when performed on strings? What operands can you not use on strings?
+
+15 - How do you put comments in your code? What are comments used for?
+
+
+
+
+

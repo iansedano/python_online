@@ -1,0 +1,33 @@
+1 - What is a string?
+
+2 - What is an index?
+
+3 - What letter will the following code print? Why?
+
+    word = 'hello'
+    index_two = word[2]
+    print index_two
+
+4 - What is the len() functions used for?
+
+5 - How can you get the last character of a word using the len() function?
+
+6 - What is string slicing and how does it work?
+
+7 - How to do slice the string "python" to produce the string "thon"?
+
+8 - How can you use slicing to store the first and last character of a word in separate variables?
+
+9 - What are the answers to Exercise 8.4 (p.80) from the textbook?
+
+10 - Can you change one or more character of a string? Why or why not?
+
+11 - What is invocation?
+
+12 - How do you invoke the find() method on the string word with the value 'hello' to find the index of the letter e?
+
+13 - Complete Exercise 8.5 (p.80) (Caesar cypher) from the textbook.
+
+14 - Follow the directions for Exercise 8.1 (p.79) until you feel comfortable with the string methods and what methods are available.
+
+15 - How is the in operator used?

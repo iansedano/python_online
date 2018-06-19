@@ -1,0 +1,54 @@
+1 - What is a function?
+
+2 - What does mean to have a function that "takes" a value?
+
+3 - What is a return value?
+
+4 - What do type conversion functions do?
+
+5 - What happens if you call the int() function and pass it a string?
+
+6 - What happens if you call the str() function and pass it an int?
+
+7 - How do you import a class to one of your programs?
+
+8 - How do you use math functions in one of your programs?
+
+9 - What is the dot notation?
+
+10 - What is composition?
+
+11 - Give an example of composition in a function call?
+
+12 - How do you define a function?
+
+13 - Provide the function header of a function named hello_world().
+
+14 - Provide the function header and body of a function named hello_world() that prints out "Hello World" 3 times.
+
+15 - Can functions call other functions?
+
+16 - Complete Exercise 3.1 (p.26) and 3.2 (p.27) from the text book.
+
+17 - What is the flow of execution?
+
+18 - Where does a program begin execution?
+
+19 - How does a function call change the flow of of execution?
+
+20 - Do the rules of composition apply to method parameters as well?
+
+21 - Do parameters and variables inside of a function exist outside of the method? Why or why not?
+
+22 - How can stack diagrams be useful?
+
+23 - What is the difference between a "fruitful" function and a void function?
+
+24 - What are some of the reasons we separate our code into functions?
+
+25 - What is the difference between the following two statements?
+	import math
+	<and>
+	from math import *
+
+	How can you use the functions of the math module in each case?

@@ -1,0 +1,27 @@
+1 - What is a boolean expression?
+
+2 - What are relational operators used for?
+
+3 - What is the difference between == and = ?
+
+4 - What are the three logical operators?
+
+5 - What do relational and logical operators evaluate to?
+
+6 - What is the if statement used for?
+
+7 - What is an if/else statement used for?
+
+8 - What is a chained conditional? How do you chain conditionals?
+
+9 - What is a nested conditional?
+
+10 - Is there a limit to how many conditional statements you can nest?
+
+11 - What is a while loop?
+
+12 - What is a for loop? How is it different than a while loop?
+
+11 - What does the break statement do?
+
+12 - Is there a limit to how many loops you can nest?
