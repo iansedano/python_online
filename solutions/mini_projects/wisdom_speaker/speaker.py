@@ -1,10 +1,12 @@
 '''
-Using the external python module 'markovbot' to create short text snippets
+Use the external python module 'markovify' to create short text snippets
 of your favorite text resource.
 
-https://github.com/esdalmaijer/markovbot
+https://github.com/jsvine/markovify
 
-BONUS: extend it to let the bot tweet wisdom once in a while!
+CHALLENGE: rewrite it using `markovbot` to let the bot tweet
+some wisdom once in a while!
+https://github.com/esdalmaijer/markovbot
 
 '''
 
