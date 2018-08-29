@@ -10,6 +10,6 @@
 	- Use the help() function to explore what you can do with the interpreter.
         For example execute help('print').
         press q to exit.
-	- Use the interpretor to perform simple math.
+	- Use the interpreter to perform simple math.
 	- Calculate how many seconds are in a year.
 '''
