@@ -16,7 +16,7 @@
 
 9 - What are operands and what are they used for?
 
-10 - Use the interpretor to demonstrate the use of some of the operands. Give the input and output of addition, multiplication and exponentiation.
+10 - Use the interpreter to demonstrate the use of some of the operands. Give the input and output of addition, multiplication and exponentiation.
 
 11 - What is floor division? How does Python 3 handle floor division?
 
