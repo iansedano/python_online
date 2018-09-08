@@ -13,3 +13,18 @@ for num in range(1, 101):
         pass
     else:
         print(num)
+
+
+# another solution using a nested loop structure:
+for number in range(2, 100):
+    is_prime = True  # adding a flag to keep track of the state of the number
+    for i in range(2, number):
+        # if it is divisible by any number, it's not a prime
+        if number % i == 0:
+            is_prime = False
+            break  # exit the inner loop - one divisibility is enough!
+    # if the inner loop's conditional didn't catch on any instance, the is_prime
+    # flag remains 'True' and we know we've got a prime at hand!
+    if is_prime:
+        print(number)
+        
