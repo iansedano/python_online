@@ -1,12 +1,50 @@
 1 - Using the command line, how do you:
     - change directories?
+
+        cd ~
+        cd home/
+
+
     - list the contents of a folder?
+
+        ls
+        ls -a
+
     - print the path of the current directory?
+
+        pwd
+
     - move a file from one location to the another?
+
+        mv iamsocool.txt thingsaboutme/
+        mv thingsaboutme/iamsocool.txt thingsaboutme/definingcharacteristic/
+
     - copy a file from one location to another?
+
+        cp iamsocool.txt thingsaboutme
+
     - create a file?
+
+        touch iamsocool.txt
+
     - create a folder?
+
+        mkdir thingsaboutme
+
     - delete a file?
+
+        rm iamsocool.txt
+
     - delete a folder?
+
+        rm thingsaboutme
+
     - print the contents of a file?
+
+        cat iamsocool.txt
+
     - edit the contents of a file?
+
+        vim iamsocool.txt
+
+        then work out all the VIM shortcuts!

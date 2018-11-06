@@ -2,32 +2,35 @@
 
 Perform the following tasks using the CLI and copy and paste the commands and results below.
 
-- Navigate to your home directory
-- Create a new directory called CodingNomads. We will use this folder to house materials for the course.
-- Move into the CodingNomads folder
-- Create new folder cli_testing
-- Inside of folder cli_testing,
-    a. print the directory path
-    b. create 3 new .txt files all with different names (file1.txt, file2.txt, file3.txt)
-    c. list the contents of the folder
-    d. rename one of the files
-- Inside of folder cli_testing, create a new folder
-- Copy a file from cli_testing to the new folder
-- Move a different file from cli_testing to the new folder
+- Navigate to your home directory DONE
+- Create a new directory called CodingNomads. We will use this folder to house materials for the course. DONE
+- Move into the CodingNomads folder DONE
+- Create new folder cli_testing DONE
+- Inside of folder cli_testing, DONE
+    a. print the directory path DONE
+    b. create 3 new .txt files all with different names (file1.txt, file2.txt, file3.txt) DONE
+    c. list the contents of the folder DONE
+    d. rename one of the files DONE
+- Inside of folder cli_testing, create a new folder DONE
+- Copy a file from cli_testing to the new folder DONE
+- Move a different file from cli_testing to the new folder DONE
 - Demonstrate removing:
-    a. A file
-    b. A folder
+    a. A file DONE
+    b. A folder DONE
 
 ## vim
-    a. Use $ vim to write some text inside a file
-    b. Use $ cat print contents of file
-    c. Use $ grep to search for a word inside file
+    a. Use $ vim to write some text inside a file DONE
+    b. Use $ cat print contents of file DONE
+    c. Use $ grep to search for a word inside file DONE
 
 ## explore advanced CLI
 
 - What is the difference between the two commands > and >>?
 	> is used to write to a file
+        echo "text to write" > textfile.txt
+            this overwrites the whole file.
 	>> is used to append to a file
-	
-- Append the text "how?!" of hello.txt to my_file.txt
-- Overwrite the content of my_file.txt with "tell me"
+        echo "text to append" >> textfile.txt
+
+- Append the text "how?!" of hello.txt to my_file.txt DONE
+- Overwrite the content of my_file.txt with "tell me" DONE

@@ -1,18 +1,48 @@
 0 - Why do we not program in plain English (or another natural language)?
 
+        Because a computer does not understand it! Since computers almost universally read binary states (0 and 1 or on / off) but can read these states incredibly fast, 'languages' or 'tools' are used to interface between our natural understanding based on natural languages, and the 'language' of computers.
+
 1 - What is the difference between an interpretor and a compiler?
     Which is used for Python?
 
+        An interpreter is generally used to run code one line at a time, generally used when writing code or running scripts. Compilers generally read full set of code and generate a standalone program that doesn't need an interpreter to run. Python generally relies on an interpreter.
+
 2 - What are two ways to execute Python code?
 
+        a - at the command line, run python
+            $ python3
+            >>>
+        b - with a IDE like IDLE
+
 3 - How do you execute a Python script?
+
+        Double clicking a .py file on a system with python installed.
+        Or at the command line, running a .py file
+        Or at the python console, running the file.
 
 4 - In your own words describe what a program is
     and what programs are made up of.
 
+        A program is a set of instructions given to a computer to carry out. The instructions are structured, making use of methods that the programming language already has, and custom functions made by the programmer.
+
 5 - What are the main three types of errors and how do you come across them?
+
+        SYNTAX - writing the wrong syntax for a function or method, for example
+            >>> quit   # without the ()
+        Type error - for example using a number when a string is required ? - apparantly not one of the three types
+        EXCEPTIONS - for example, needing to connect to internet without connection. I.e. python knows what to do but cannot do it for some reason.
+        LOGIC - the program runs, and finishes, but produces undesired result. Is hardest to fix, because as far as the computer is concerned, it has done everything it needed to do, it has done eveything you told it to do!
+        RUNTIME - code is correct but once it comes to execute it it runs into error . i.e. flap your arms and fly - instructions are coherent, but impossible to do, at least for a human.
+
 
 6 - What does it mean to debug a program?
     What are some ways to debug a program?
 
+        Debugging means to find out why a program doesn't work or why it gives errors.
+        You can debug by running the program in an interpreter and reading the error messages.
+        Also by running debugging scripts that analyze your code and suggest changes or highlight bugs.
+
+
 7 - What is a “high-level language” / what’s a “low-level-language”?
+
+        A high level language is PYTHON for example. It is a language that humans can readily understand. Python is converted to low level language at execution, i.e. machine code that the computer can readily understand and execute.
