@@ -24,6 +24,10 @@ Perform the following tasks using the CLI and copy and paste the commands and re
     c. Use $ grep to search for a word inside file
 
 ## explore advanced CLI
+
 - What is the difference between the two commands > and >>?
+	> is used to write to a file
+	>> is used to append to a file
+	
 - Append the text "how?!" of hello.txt to my_file.txt
 - Overwrite the content of my_file.txt with "tell me"

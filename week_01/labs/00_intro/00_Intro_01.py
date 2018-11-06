@@ -13,3 +13,13 @@
 	- Use the interpreter to perform simple math.
 	- Calculate how many seconds are in a year.
 '''
+
+print('hello world')
+
+7 * 6 + 6 / 2
+
+# seconds in year
+
+# min * hours * days * year
+
+60 * 60 * 24 * 365
