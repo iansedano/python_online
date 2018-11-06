@@ -1,6 +1,7 @@
 1 - Complete git tutorial here: https://try.github.io/
 
 2 - Create Github account if you have not already done so.
+    DONE
 
 There are two main ways in which you get started working with a git repository on your local machine. The first is to initialize a folder, or a project, as a new git repository. This creates the .git folder in the project that tracks all of the git functionality. The second way is to clone an existing repository from Github onto your machine.
 
@@ -11,6 +12,7 @@ There are two main ways in which you get started working with a git repository o
 	- add a new remote to your local git repository that points to the repo that you just created on your own Github
 	- push the local repository to your Github repository
 	- visit the Github repo to make sure the contents were pushed
+    DONE ALL - not clone wars though
 
 4 - Initializing a new git repository:
 	- in your CodingNomads folder, create new folder git_practice
@@ -27,6 +29,7 @@ There are two main ways in which you get started working with a git repository o
             - Add file(s)
             - Commit file(s)
             - Push file(s) to Github repository
+    DONE but not with example
 
 5 - More practice cloning
 	- spend some time looking at the repositories on Github
