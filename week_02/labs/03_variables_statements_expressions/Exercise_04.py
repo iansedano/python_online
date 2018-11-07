@@ -11,6 +11,6 @@ c = (r * 2) * pi
 
 print(c)
 
-area = pi * (r^2)
+area = pi * (r ** 2)
 print(area)
 

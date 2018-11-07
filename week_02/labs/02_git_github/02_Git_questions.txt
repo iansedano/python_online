@@ -32,13 +32,15 @@
 	- make a commit
         git commit -m 'message'
 	- push to Github
-        git push master (or current branch)
+        git push [remote_name] master (or current branch)
 	- pull from Github
         git pull [remote]
 	- see the names of the branches
-
+        git branch -v
 	- see the names of the remotes
-        git remote
+        git remote -v
 	- add a new remote
-        git remote
+        git remote add [remote_name] [remote_address]
 
+
+            DONE

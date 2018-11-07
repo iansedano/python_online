@@ -38,6 +38,8 @@ There are two main ways in which you get started working with a git repository o
 	- add remotes to each local repo
 	- push each repo to your Github
 
+        DONE
+
 
 
 

@@ -5,11 +5,10 @@ What is his/her average speed in miles per hour. (Tip: 1 mile = 1.6 km)
 '''
 
 distance = 12
-
-time = (30 * 60) + 30
-
+seconds = (30 * 60) + 30
+hour = (seconds / 60 ) / 60
+coef = 1 / hour
 miles = distance / 1.6
+miles_per_hour = coef * miles
+print(miles_per_hour)
 
-hour = (time / 60 ) / 60
-
-...need to finish
