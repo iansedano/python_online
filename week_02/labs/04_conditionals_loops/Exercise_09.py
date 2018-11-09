@@ -17,3 +17,11 @@ The output should look something like this:
 x = 10
 y = 10
 
+for rows in range(1, x + 1):
+	for columns in range(1, y + 1):
+		if (rows * columns) < 10:
+			space = ' '
+		else:
+			space = ''
+		print(str(rows * columns) + space + ' |',end='')
+	print('\n')
