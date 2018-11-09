@@ -17,3 +17,5 @@ births = year / 6
 immig = year / 40
 
 new_pop = pop + (3 * (deaths + births + immig))
+
+print(new_pop)

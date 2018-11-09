@@ -1,8 +1,14 @@
 1 - What is a value?
 
+        something that has a number or string
+
 2 - What is a type?
 
+        refers to the type of value, whether a number, float, string.
+
 3 - What are some values we have seen so far?
+
+        number, float, string, boolean
 
 4 - What is an example of a int? A floating-point number? A string?
 
@@ -26,19 +32,49 @@
 7 - What is an example of an illegal variable name?
 
         class = 3
+        and = 'im illegal'
 
 8 - What are keywords and what are they used for?
 
-
+        keywords are reserved words, they are used for basic operations and cannot be variable names.  For example, if and else.
 
 9 - What are operators and what are they used for?
+
+        + - * / > <  -  for performing maths or comparing or logical
 
 
 10 - Use the interpretor to demonstrate the use of some of the operators. Give the input and output of addition, multiplication and exponentiation.
 
+        1 + 1
+        2 - 1
+        3 * 2
+        2 ** 2
+
 11 - What is floor division? How does Python 3 handle floor division?
 
+        returns the result of division as a whole number.
+        i.e
+            >>> 15 / 4 # normal division
+            3.75
+            >>> 15 // 4 # floor division
+            3
+
 12 - What is the difference between an expression and a statement?
+
+        expression evaluates to a value
+
+        >>>my_value = 5 + 4 ** 2
+
+        statement performs an action
+
+        >>>print(my_value)
+
+        That said, a few stack overflow discussions claim that expressions are a type of statement. That expressions are parts of statements.
+
+        for example, an expression statement
+
+        >>> print(5*5)
+
 
 13 - What is the order of operations?
 
@@ -51,7 +87,7 @@
 14 - What does the + operator do when performed on strings? What does the * operator do when performed on strings? What operators can you not use on strings?
 
         + concatenates?
-        * no idea..
+        * gives error
 
 15 - How do you put comments in your code? What are comments used for?
 

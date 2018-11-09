@@ -18,5 +18,3 @@ def cost_of_trip():
     cost = (miles / mpg) * price
     print("the cost of your trip will be " + str(cost) + "$");
 
-
-

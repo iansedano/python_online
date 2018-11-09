@@ -11,7 +11,6 @@ Output should read like - "27.4 degrees celsius = 81.32 degrees fahrenheit"
 NOTE: if you get an error, look up what input() returns!
 
 '''
-
 def c_to_f():
     print('type in temp in C')
     c = input()
@@ -19,4 +18,3 @@ def c_to_f():
     f = c * 1.8 + 32
     print(str(c) + ' degrees celsius = ' + str(f) + ' degrees fahrenheit')
     return;
-
