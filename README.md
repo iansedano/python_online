@@ -7,17 +7,8 @@ Please refer to the [Course Overview](https://codingnomads.atlassian.net/wiki/sp
 
 ---
 
-## Fork me!
-
-After you have created a GitHub account, press the "Fork" symbol at the
-top right of this repository. It looks like this:
-
-![Fork repo](media/fork.png)
-
-This will create **your own copy** of all the files on your personal GitHub
-profile. You can then use the repo to practice pushing to and pulling from
-a remote repo, edit files locally when you complete the exercises, and
-keeping your personal changes under version control.
+### Clone Me!
+From your CLI, in the directory where you wish to store the labs on your computer run: "git clone https://github.com/rdesmond/python_online"
 
 ### Contributing
 
