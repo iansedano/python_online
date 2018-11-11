@@ -19,3 +19,14 @@ so to make it a bit harder, here are some rules to follow.
 4) Put a blank line between each verse of the song.
 
 '''
+
+x = 100
+while x != 0:
+    if x > 1:
+        print(str(x) + ' bottles of beer on the wall, ' + str(x) + ' bottles of beer.\nTake one down and pass it around, ' + str(x) + ' bottles of beer on the wall\n')
+        x = x - 1
+    elif x == 1:
+        print(str(x) + ' bottle of beer on the wall, ' + str(x) + ' bottle of beer.\nTake one down and pass it around, ' + str(x) + ' bottle of beer on the wall\n')
+        x = x - 1
+print('No more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall')
+

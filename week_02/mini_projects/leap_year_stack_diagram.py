@@ -38,20 +38,22 @@ http://www.pythontutor.com/visualize.html#mode=edit
 for better visual understanding and support in creating the stack diagram.
 
 '''
-- The year can be evenly divided by 4, is a leap year, unless:
-  - The year can be evenly divided by 100, it is NOT a leap year, unless:
-    - The year is also evenly divisible by 400. Then it is a leap year.
+#- The year can be evenly divided by 4, is a leap year, unless:
+    #
 
 
-year = 1973
+year = 2000
 
 leap = False
 
-if (year % 4) = 0:
-    if (year % 100) = 0:
-        if (year % 400) = 0:
+if (year % 4) == 0:
+    if (year % 100) == 0:
+        if (year % 400) == 0:
             leap = True
         else:
             leap = False
     else:
+        True
+
+print(leap)
 
