@@ -23,3 +23,20 @@ argument.
 5. Define a new function called do_four that takes a function object and a value and calls the function four times, passing the value as a parameter. There should be only two statements in the body of this function, not four.
 
 '''
+
+def do_twice(f, v):
+    f(v)
+    f(v)
+
+def print_spam(t):
+    print(t)
+
+def print_twice(t):
+    print(t)
+    print(t)
+
+def do_four(f, v):
+    do_twice(f, v)
+    do_twice(f, v)
+
+do_four(print_spam, 'spam')

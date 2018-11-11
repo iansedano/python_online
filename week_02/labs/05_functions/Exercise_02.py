@@ -35,3 +35,36 @@ The output of these statements is '+ -' on the same line. The output from the ne
 
 
 '''
+first_row_sep = '+ - - - - +'
+first_row = '|         |'
+row_sep_add_column = ' - - - - +'
+row_add_column = '         |'
+
+def print_sep_row(c):
+    print(first_row_sep, end = '')
+    c2 = c - 1
+    while c2 > 0:
+        print(row_sep_add_column, end = '')
+        c2 = c2 - 1
+    print()
+
+def print_row(c):
+    x = 4
+    while x > 0:
+        print(first_row, end = '')
+        c2 = c - 1
+        while c2 > 0:
+            print(row_add_column, end = '')
+            c2 = c2 - 1
+        print()
+        x = x - 1
+
+def print_table(c, r):
+    print_sep_row(c)
+    while r > 0:
+        print_row(c)
+        print_sep_row(c)
+        r = r - 1
+
+print_table(4,4)
+
