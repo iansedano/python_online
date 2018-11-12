@@ -17,3 +17,23 @@ and generalize it so that it accepts the string and the letter as arguments.
 it uses the three-parameter version of find from the previous section.
 
 '''
+
+def count(word,letter):
+    count = 0
+    for letter in word:
+        if letter == 'letter':
+            count = count + 1
+    print(count)
+
+def countx(word,letter):
+    pos = 0
+    count = 0
+    while pos < len(word):
+        pos = word.find(letter,pos)
+        count += 1
+        print(count)
+
+print(countx('wawa','w'))
+
+
+

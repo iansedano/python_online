@@ -11,10 +11,29 @@ print('type something')
 my_string = input()
 print(my_string.upper())
 print(my_string.lower())
-print(
-    for x in my_string:
-        if x == 'a' or 'e' or 'i' or 'o' or 'u':
+
+
+def is_vowel(letter):
+    vowels = 'aeiou'
+    i = 0
+    while i < len(vowels):
+        if letter == vowels[i]:
+            return True
+        i += 1
+    return False
+
+j = 0
+while j < len(my_string):
+    if is_vowel(my_string[j]):
+        print(my_string[j].lower(), end = '')
+    else:
+        print(my_string[j].upper(), end = '')
+    j += 1
 
 
 
-    )
+
+
+
+
+

@@ -1,6 +1,10 @@
 1 - What is a string?
 
+    a variable made of characters, like a sentence or a word
+
 2 - What is an index?
+
+    it is a way to number each character in a string, also as a unique identifier in many other use cases
 
 3 - What letter will the following code print? Why?
 
@@ -8,26 +12,48 @@
     index_two = word[2]
     print index_two
 
+    'r' - because w is index 0, o index 1, and r index 2
+
 4 - What is the len() functions used for?
+
+    to measure the length of a string- i.e. len('word') = 4
 
 5 - How can you get the last character of a word using the len() function?
 
+    word[len('word') - 1]
+
 6 - What is string slicing and how does it work?
+
+    word[::] there are three arguments...need to finish
 
 7 - How to do slice the string "python" to produce the string "thon"?
 
 8 - How can you use slicing to store the first and last character of a word in separate variables?
 
+
+
 9 - What are the answers to Exercise 8.4 (p.80) from the textbook?
+
+
 
 10 - Can you change one or more character of a string? Why or why not?
 
+    no, because strings are immutable. however, you can create a new string with a changed character easily
+
 11 - What is invocation?
+
+    a dark art...
 
 12 - How do you invoke the find() method on the string word with the value 'hello' to find the index of the letter e?
 
+
+
 13 - Complete Exercise 8.5 (p.80) (Caesar cypher) from the textbook.
 
+    i think this is a previous question that i already did.
+
 14 - Follow the directions for Exercise 8.1 (p.79) until you feel comfortable with the string methods and what methods are available.
+
+
 
 15 - How is the in operator used?
