@@ -17,3 +17,9 @@ while counter > 0:
     counter = counter - 1
 
 print(my_list)
+
+_sum = 0
+for i in my_list:
+    _sum = _sum + i
+
+average = len(my_list) / _sum
