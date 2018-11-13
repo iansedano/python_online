@@ -15,3 +15,14 @@ Source: http://greenteapress.com/thinkpython2/html/thinkpython2011.html#sec128
 Solution: http://thinkpython2.com/code/list_exercises.py
 
 '''
+
+def cumsum(_list):
+    cum_list = []
+    cum_sum = 0
+    for _number in _list:
+        cum_sum = cum_sum + _number
+        cum_list.append(cum_sum)
+    print(cum_list)
+
+t = [1, 2, 3]
+cumsum(t)
