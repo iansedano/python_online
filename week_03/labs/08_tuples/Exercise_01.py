@@ -21,6 +21,7 @@ list_of_tuples = []
 counter = 0
 _tuple_temp1 = _list[0]
 _tuple_temp2 = 0
+
 for x in _list:
     if counter == 0:
         counter += 1
@@ -33,6 +34,7 @@ for x in _list:
         list_of_tuples.append(_tuple)
         _tuple_temp1 = x
         counter = 1
+
 if len(_list) % 2 != 0:
     _tuple = (_list[len(_list)-2],_list[len(_list)-1])
     list_of_tuples.append(_tuple)
