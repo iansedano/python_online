@@ -17,3 +17,21 @@ Lower case: 26
 Punctuation: 1
 
 '''
+
+my_string = 'I love to work with dictionaries!'
+punctu = '!.,?;:"'
+
+my_dict = {'lower':0,'upper':0,'punc':0, 'space':0}
+
+for c in my_string:
+    if c == ' ':
+        my_dict['space'] += 1
+    elif c in punctu:
+        my_dict['punc'] += 1
+    elif c == c.upper():
+        my_dict['upper'] += 1
+    elif c == c.lower():
+        my_dict['lower'] += 1
+
+
+print(my_dict)

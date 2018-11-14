@@ -9,3 +9,25 @@ def print_hist(h):
         print(c, h[c])
 
 '''
+def histogram(s): # counts number of characters
+    d = dict()
+    for c in s:
+        if c not in d:
+            d[c] = 1
+        else:
+            d[c] += 1
+    return d
+
+print(histogram('bronto  saurus'))
+
+h = histogram('a')
+print(h)
+print(h.get('a', 0)) #get ('key', dafalut value)
+print(h.get('b', 0))
+
+def print_hist(h):
+    for c in h:
+        print(c,h[c])
+
+h = histogram('parrot')
+print_hist(h)
