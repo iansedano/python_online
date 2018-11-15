@@ -18,8 +18,6 @@ Solution: http://thinkpython2.com/code/birthday.py
 import random
 random_bdays = []
 
-
-
 def sample_b():
     random_bdays = []
     for b in range(0,23):

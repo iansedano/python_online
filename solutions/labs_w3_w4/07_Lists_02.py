@@ -15,6 +15,7 @@ list_two = [1, 4, 9, 24, 42, 88, 99, 100]
 same_same, different = [], []
 
 # find which items appear in both lists
+
 for x in list_one:
     if x in list_two:
         same_same.append(x)

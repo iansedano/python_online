@@ -31,3 +31,9 @@ def print_hist(h):
 
 h = histogram('parrot')
 print_hist(h)
+
+alphabet = 'aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWXyYzZ'
+
+for l in alphabet:
+    if l in h:
+        print(l,':', h[l])

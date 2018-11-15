@@ -23,32 +23,42 @@ print('uno' in _values)
 
 # 'in' operator uses differente algorithms for lists and dicts
 
-def histogram(s): # counts number of characters
+def histogram(st): # counts number of characters
     d = dict()
-    for c in s:
-        if c not in d:
-            d[c] = 1
+    for ch in st:
+        if ch not in d:
+            d[ch] = 1
         else:
-            d[c] += 1
+            d[ch] += 1
     return d
 
 print(histogram('bronto  saurus'))
 
 h = histogram('a')
 print(h)
+
+print('HEY!')
+
 print(h.get('a', 0)) #get ('key', dafalut value)
 print(h.get('b', 0))
 
 '''As an exercise, use get to write histogram more concisely. You should be able to eliminate
 the if statement. --- ??? '''
 
-'''  NEED TO FINISH
-def histogram2(s):
+def histogram2(st):
     d = dict()
-    for c in s:
+    for ch in st:
+        d[ch] = st.get(ch, 0)
 
-print(histogram2('bronto  saurus'))
-'''
+histogram2('bronto  saurus')
+
+
+#print(histogram2('bronto  saurus'))
+
+
+
+
+
 
 def print_hist(h):
     for c in h:

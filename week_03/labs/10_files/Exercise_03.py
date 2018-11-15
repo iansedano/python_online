@@ -18,3 +18,28 @@ Source: Read through the "Files" chapter in Think Python 2e:
 http://greenteapress.com/thinkpython2/html/thinkpython2015.html
 
 '''
+
+
+import os
+
+#initializing
+list_of_paths = []
+os.chdir('C:/Dropbox/Cargas de cámara')
+files_md5 = {}
+
+#making list of paths
+for root, dirs, files in os.walk("."):
+    for filename in files:
+        list_of_paths.append(filename)
+print(list_of_paths)
+
+
+#making dictionary of {(paths: md5)}
+for file in list_of_paths:
+    cmd = 'md5sum ' + file
+    fp = os.popen(cmd)
+    res = fp.read()
+    stat = fp.close()
+
+    print(res)
+    print(stat)

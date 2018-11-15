@@ -18,7 +18,7 @@ def compare_lists(list_x, list_y):
     j = 0
     while i < len(list_x):
         j = 0
-        while j < len(list_two):
+        while j < len(list_y):
             if list_x[i] == list_y[j]:
                 if list_x[i] not in list_same:
                     list_same.append(list_x[i])

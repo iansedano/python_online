@@ -35,6 +35,12 @@ def is_palindrome(word):
     return is_palindrome(middle(word))
 
 '''
+def first(word):
+    return word[0:1:]
+
+print(first('weaosj'))
+
+
 
 def is_palindrome(word):
     if word != word[::-1]:

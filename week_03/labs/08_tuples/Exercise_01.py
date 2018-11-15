@@ -25,9 +25,11 @@ _tuple_temp2 = 0
 for x in _list:
     if counter == 0:
         counter += 1
+
     elif counter == 1:
         _tuple_temp2 = x
         counter += 1
+
     elif counter == 2:
         _tuple = (_tuple_temp1, _tuple_temp2)
         print(_tuple)
