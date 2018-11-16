@@ -16,11 +16,7 @@
 
 9 - What are operators and what are they used for?
 
-<<<<<<< HEAD
-10 - Use the interpretor to demonstrate the use of some of the operators. Give the input and output of addition, multiplication and exponentiation.
-=======
 10 - Use the interpreter to demonstrate the use of some of the operands. Give the input and output of addition, multiplication and exponentiation.
->>>>>>> 8958bd94d0c538a41cc66c1c21357977589e592e
 
 11 - What is floor division? How does Python 3 handle floor division?
 
