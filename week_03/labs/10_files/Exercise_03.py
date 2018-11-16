@@ -24,22 +24,59 @@ import os
 
 #initializing
 list_of_paths = []
-os.chdir('C:/Dropbox/Cargas de cámara')
+print(os.getcwd())
+os.chdir('/home/ian/Dropbox/0 Library')
 files_md5 = {}
 
 #making list of paths
 for root, dirs, files in os.walk("."):
     for filename in files:
-        list_of_paths.append(filename)
+        full_path = '/home/ian/Dropbox/0 Library' + root[1:] + '/' + filename
+        list_of_paths.append(full_path)
 print(list_of_paths)
 
 
 #making dictionary of {(paths: md5)}
-for file in list_of_paths:
-    cmd = 'md5sum ' + file
+for file in list_of_paths[0:300]:
+    cmd = 'md5sum ' + "'" + file + "'"
     fp = os.popen(cmd)
     res = fp.read()
+    files_md5[file] = res[0:32]
     stat = fp.close()
 
-    print(res)
-    print(stat)
+
+duplicates = {}
+uniques = {}
+md5s = []
+files = []
+
+for x in files_md5:
+    md5s.append(files_md5[x])
+    files.append(x)
+
+
+print(md5s)
+print('list of paths -' + str(len(list_of_paths)))
+print('dict -' + str(len(files_md5)))
+
+print('md5s -' + str(len(md5s)))
+print('files -' + str(len(files)))
+
+counter = 0
+duplicates = []
+for _hash in md5s:
+    for each in md5s:
+        if _hash == each:
+            counter += 1
+    if counter > 1:
+        if _hash not in duplicates:
+            duplicates.append(_hash)
+    counter = 0
+print('duplicates - ' + str(len(duplicates)))
+print(duplicates)
+
+for dup in duplicates:
+    print(files[md5s.index(dup)])
+
+
+

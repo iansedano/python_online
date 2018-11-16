@@ -10,6 +10,7 @@ print(blank)
 
 # /// ATTRIBUTES
 print('\n\n/////ATTRIBUTES////')
+
 blank.x = 3.0
 blank.y = 4.0
 
@@ -42,14 +43,17 @@ box.corner = Point()
 box.corner.x = 0.0
 box.corner.y = 0.0
 
+print(box.width)
+print(box.corner.x)
+
 # /// INSTANCES AS RETURN VALUES
 print('\n\n/////INSTANCES AS RETURN VALUES////')
 
 def find_center(rect):
-    p = Point()
-    p.x = rect.corner.x + rect.width/2
-    p.y = rect.corner.y + rect.height/2
-    return p
+    center = Point()
+    center.x = rect.corner.x + rect.width/2
+    center.y = rect.corner.y + rect.height/2
+    return center
 
 center = find_center(box)
 print_point(center)
@@ -67,5 +71,10 @@ def grow_rectangle(rect, dwidth, dheight):
 print(box.width, box.height)
 grow_rectangle(box, 50, 100)
 print(box.width, box.height)
+
+def move_rectangle(rect, dx, dy):
+    rect.corner.x += dx
+    rect.corner.y += dy
+
 
 

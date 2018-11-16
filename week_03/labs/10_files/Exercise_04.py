@@ -14,3 +14,12 @@ Source: Read through the "Files" chapter in Think Python 2e:
 http://greenteapress.com/thinkpython2/html/thinkpython2015.html
 
 '''
+
+from anagram_sets import *
+
+anagram_map = all_anagrams('words.txt')
+
+def read_anagrams(_word):
+    print(anagram_map[_word])
+
+read_anagrams('pots')
