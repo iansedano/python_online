@@ -8,7 +8,7 @@ print(Point)
 print(blank)
 
 
-# /// ATTRIBUTES
+
 print('\n\n/////ATTRIBUTES////')
 
 blank.x = 3.0
@@ -27,7 +27,7 @@ def print_point(p):
 
 print_point(blank)
 
-# /// RECTANGLES
+
 print('\n\n/////RECTANGLES////')
 
 class Rectangle:
@@ -46,7 +46,7 @@ box.corner.y = 0.0
 print(box.width)
 print(box.corner.x)
 
-# /// INSTANCES AS RETURN VALUES
+
 print('\n\n/////INSTANCES AS RETURN VALUES////')
 
 def find_center(rect):
@@ -58,7 +58,7 @@ def find_center(rect):
 center = find_center(box)
 print_point(center)
 
-# /// OBJECTS ARE MUTABLE
+
 print('\n\n/////OBJECTS ARE MUTABLE////')
 
 box.width = box.width + 50
@@ -76,5 +76,47 @@ def move_rectangle(rect, dx, dy):
     rect.corner.x += dx
     rect.corner.y += dy
 
+move_rectangle(box,100,100)
+print('MOVE RECTANGLE >>> ',box.corner.x, box.corner.y)
+
+print('\n\n/////COPYING////')
+
+p1 = Point()
+p1.x = 3.0
+p1.y = 4.0
+
+import copy
+p2 = copy.copy(p1)
+
+print_point(p1)
+print_point(p2)
+
+print('p1 is p2  >> ' + str(p1 is p2) )
+print('p1 == p2  >> ' + str(p1 == p2) ) # because python checks object identity
+
+print('\nSHALLOW copy')
+box2 = copy.copy(box)
+print('box2 is box  >> ' + str(box2 is box))
+print('box2.corner is box.corner  >> ' + str(box2.corner is box.corner))
+
+print('\nDEEP copy')
+box3 = copy.deepcopy(box)
+print('box3 is box  >> ' + str(box3 is box))
+print('box3.corner is box.corner  >> ' + str(box3.corner is box.corner))
 
 
+def move_rectangle2(rect, dx, dy, copy):
+    if copy == True:
+        new_rect = copy.deepcopy(rect)
+        new_rect.corner.x += dx
+        new_rect.corner.y += dy
+    else:
+        rect.corner.x += dx
+        rect.corner.y += dy
+
+#move_rectangle2()
+
+
+
+
+print('\n\n/////DEBUGGING////')

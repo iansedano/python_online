@@ -1,0 +1,96 @@
+
+cd "C:\Dropbox\0 Library\Music\0 Sheet Music & Transcriptions"
+
+#for list
+dir /s /b /o:gn
+
+
+Bert Jansch\Bert Jansch - Blackwaterside.txt
+Bert Jansch\Bert Jansch - The First Time I ever Saw your Face.txt
+Bert Jansch\Best Jansch Bird Song.txt
+Bert Jansch\Blackwaterside dropped D.txt
+
+The Strokes\Reptilia.txt
+The Strokes\Is this it.txt
+The Strokes\Between love and hate.txt
+The Beach Boys\beach boys - god only knows.txt
+Pink Floyd\Shine on you crazy Diamonds.txt
+Pink Floyd\Pink Floyd - Comfortably Numb.txt
+Dire Straits\Money for Nothing.txt
+Dire Straits\Sultans of Swing.txt
+Doves\Firesuite.txt
+Doves\Sea Song.txt
+Ace of Base\All that she wants.txt
+
+
+
+Weezer\hash pipe.txt
+Weezer\buddy holly.txt
+Bob Dylan\blind willie mctell.txt
+Weezer\say it aint so.txt
+Gotye\somebody that i used to know.txt
+Fugees\Killing me Softly.txt
+Gomez\78 Stone Wobble.txt
+Gomez\Free To Run.txt
+Gomez\Get Myself arrested.txt
+Gomez\Gomez - Rosalita.txt
+Gomez\Tiajuana Lady.txt
+Gomez\We haven't turned around.txt
+Gomez\Wharf Me.txt
+Queens of the Stone Age\No One Knows.txt
+The Beatles\The Beatles - Hey Jude.txt
+Bob Dylan\A hard rain's a gonna fall.txt
+Bob Dylan\Baby, let me follow you down.txt
+Bob Dylan\blind willie mctell.txt
+Bob Dylan\Bob Dylan's Dream.txt
+Bob Dylan\father of night.txt
+Bob Dylan\In my time of dyin.txt
+Bob Dylan\It's allright ma.txt
+Bob Dylan\Just like a woman.txt
+Bob Dylan\masters of war.txt
+Bob Dylan\Restless Farewell.txt
+Bob Dylan\sad eyed lady of the lowlands.txt
+Bob Dylan\Song to Woody.txt
+Buggles\Video Killed the Radio Star.txt
+
+
+
+Dave Von Ronk\shoals of herring.txt
+Dave Von Ronk\Oscar Issac - The Death of Queen Jane.txt
+Dave Von Ronk\Oscar Issac - Hang me O hang me.txt
+Brian Protheroe\Brian Protheroe - Pinball.txt
+Dave Von Ronk\dink's song.txt
+Weezer\Weezer - island in the sun.txt
+David Bromberg\David Bromberg Mr. Bojangles.txt
+Nancy Sinatra\these boots are made for walkin.txt
+Norah Jones\Dont know why v 2.txt
+
+
+
+Smash Mouth\walkin on the sun.txt
+Red Hot Chilli Peppers\Californication.txt
+Red Hot Chilli Peppers\Otherside.txt
+Red Hot Chilli Peppers\Road Trippin.txt
+Red Hot Chilli Peppers\Scar Tissue.txt
+Smash Mouth\all star.txt
+Nancy Sinatra\bang bang.txt
+The Kinks\Sunny afternoon The Kinks.txt
+The Kinks\Lola The Kinks.txt
+The Doors\The Doors - People Are Strange.txt
+Steelers Wheel\Stuck in the Middle WIth you.txt
+Rodriguez\Rodriguez - Rich Folks hoax.txt
+Mungo Jerry\In the Summer Time.txt
+Courtney Barnett\need a little time.txt
+Pink Floyd\Wish You Were Here.txt
+Pink Floyd\breathe.txt
+Rodrigo Amarante\Tuyo.txt
+Ricky Nelson\Lonesome Town.txt
+Louis Armstrong\What a wonderful world.txt
+Toploader\Dancing in the moonlight.txt
+Red Hot Chilli Peppers\Under The Bridge.txt
+Doves\Catch the Sun.txt
+Doves\Caught by the River.txt
+Doves\The Cedar Room.txt
+Oasis\dont look back in anger.txt
+Oasis\Oasis - half the world away.txt
+

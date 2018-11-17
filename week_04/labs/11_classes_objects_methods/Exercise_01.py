@@ -10,3 +10,6 @@ Demonstrate below:
 - find
 
 '''
+
+
+#string excercise duplicate?
