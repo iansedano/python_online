@@ -120,3 +120,22 @@ def move_rectangle2(rect, dx, dy, copy):
 
 
 print('\n\n/////DEBUGGING////')
+
+
+# attribute error
+
+p = Point()
+p.x = 3
+p.y = 4
+
+try:
+    print(p.z)
+except Exception as exc:
+    print('attribute error while printing p.z as there is no p.z attribute defined')
+
+print(type(p)) # to find out what type an object is
+
+print(isinstance(p,Point)) #whether object is instance of class
+
+print(hasattr(p, 'x')) #whether object has a certain attribute
+print(hasattr(p, 'z'))
