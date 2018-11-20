@@ -1,13 +1,16 @@
 '''
-Complete Exercise 8.1 from the textbook (p.79).
+We've learned about strings earlier. Looking at string methods from the
+perspective of "everything is an object in python" explains the syntax
+that we encountered there.
 
-Read the documentation of the string methods:
-- https://docs.python.org/3/library/stdtypes.html#string-methods
+Now take a second look at the documentation of the string methods at:
+http://docs.python.org/3/library/stdtypes.html#string-methods.
 
-Demonstrate below:
-- strip
-- replace
-- find
+Demonstrate 3 interesting string methods of your choice and explain why
+they are invoked like this: str.method()
+
+Source: Exercise in chapter "Strings" in Think Python 2e:
+http://greenteapress.com/thinkpython2/html/thinkpython2009.html
 
 '''
 

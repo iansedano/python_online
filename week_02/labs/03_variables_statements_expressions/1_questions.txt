@@ -42,7 +42,6 @@
 
         + - * / > <  -  for performing maths or comparing or logical
 
-
 10 - Use the interpretor to demonstrate the use of some of the operators. Give the input and output of addition, multiplication and exponentiation.
 
         1 + 1
