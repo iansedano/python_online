@@ -24,18 +24,19 @@ import os
 
 #initializing
 list_of_paths = []
-print(os.getcwd())
-os.chdir('/home/ian/Dropbox/0 Library')
+
+os.chdir('C:\\Dropbox\\0 Library')
 files_md5 = {}
 
 #making list of paths
 for root, dirs, files in os.walk("."):
-    for filename in files:
-        full_path = '/home/ian/Dropbox/0 Library' + root[1:] + '/' + filename
-        list_of_paths.append(full_path)
-print(list_of_paths)
+    print(root)
+    #for filename in files:
+       # full_path = 'C:\\Dropbox\\0 Library' + root[1:] + '/' + filename
+        #list_of_paths.append(full_path)
+#print(list_of_paths)
 
-
+'''
 #making dictionary of {(paths: md5)}
 for file in list_of_paths[0:300]:
     cmd = 'md5sum ' + "'" + file + "'"
@@ -83,3 +84,4 @@ for dup in duplicates:
 
 
 
+'''

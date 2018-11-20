@@ -23,3 +23,5 @@ def read_anagrams(_word):
     print(anagram_map[_word])
 
 read_anagrams('pots')
+
+# can reverse the search...

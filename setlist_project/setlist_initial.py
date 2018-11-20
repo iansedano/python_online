@@ -11,16 +11,29 @@ os.chdir(full_path_to_folder)
 
 
 
-
 #making list of paths
 
-def list_files(extension):
+print(os.getcwd())
+
+for root, dirs, files in os.walk("."):
+    os.chdir(root)
+    print('folder :' + root)
     for root, dirs, files in os.walk("."):
-        return [f for f in files if f.endswith('.' + extension)]
+        print('files :')
+        print(files)
+    #for _dir in root:
+    #    print(full_path_to_folder + '\\' + _dir)
+        #return [f for f in files if f.endswith('.' + extension)]
 
-list_of_full_paths = list_files('txt')
 
-print(list_of_full_paths)
+"help - the beatles [open_mic solo_acoustic].txt"
+#read the file into new file, then delete old file.
+
+#list_of_full_paths = list_files('txt')
+
+#print(list_of_full_paths)
+
+
 
 '''
 #making list of paths
